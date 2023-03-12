@@ -1,0 +1,6 @@
+[build]
+  command = "pip install -r requirements.txt ; python main.py"
+  publish = "https://github.com/DimitrisSkarvelakis/websiteCV/tree/main"
+
+[dev]
+  command = "flask run"
